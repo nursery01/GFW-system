@@ -1,4 +1,4 @@
-gfw2021，可以用來檢測Shadowsocks、vmess等
+gfw2021，可以用來檢測Shadowsocks、vmess等(外層沒有加TLS)
 
 來自[https://gfw.report/publications/usenixsecurity23/zh/](https://gfw.report/publications/usenixsecurity23/zh/)
 
