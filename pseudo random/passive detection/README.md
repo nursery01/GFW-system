@@ -12,6 +12,6 @@ gfw2021(ver1.0)，可以用來檢測Shadowsocks、vmess等(外層沒有加TLS)
 2.然後把編譯出來的jar和data.json放在同一個資料夾内
 3.java -jar ./gfw.jar
 
-如果顯示為unknown or full encryption，則代表它是沒有通過
-如果結尾顯示vpn?vpn?vpn? 那麽你就很危險啦
+如果顯示為unknown or full encryption，則代表該條沒有通過規則
+如果結尾顯示vpn?vpn?vpn? 那麽就代表你可能用了shadowsocks或者vmess
 ```
