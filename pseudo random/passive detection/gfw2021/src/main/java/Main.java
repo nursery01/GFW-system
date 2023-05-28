@@ -32,15 +32,16 @@ public class Main {
                 throw new RuntimeException(e);
             }
         }
-        boolean b=false;
+        int i1=0;
         for (int i = 1; i < concurrentHashMap.size()+1; i++) {
             String o = (String) concurrentHashMap.get("data" + i);
             if (o.endsWith("passed")){
-                b=true;
+                i1++;
             }
             System.out.println(o);
         }
-        if (!b){
+        double d=1.0*i1/concurrentHashMap.size();
+        if (d<0.01){
             System.out.println("vpn?vpn?vpn?");
         }
     }
