@@ -1,6 +1,6 @@
 gfw2021，可以用來檢測Shadowsocks、vmess等(外層沒有加TLS)
 
-來自[https://gfw.report/publications/usenixsecurity23/zh/](https://gfw.report/publications/usenixsecurity23/zh/)
+基於這篇製作[https://gfw.report/publications/usenixsecurity23/zh/](https://gfw.report/publications/usenixsecurity23/zh/)
 
 需要jdk21才能運作
 
