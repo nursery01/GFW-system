@@ -140,7 +140,12 @@ public class Main {
                     return;
                 }
                 for (int i = 0; i < 6; i++) {
-                    int i1 = Integer.parseInt(split[i], 16);
+                    int i1=0;
+                    try {
+                        i1 = Integer.parseInt(split[i], 16);
+                    }catch (Exception e){
+                        continue;
+                    }
                     if (i1>=32&&i1<=126){
                         bo[i]=true;
                     }else {
@@ -168,7 +173,12 @@ public class Main {
                 }
                 int i=0;
                 for (String s1 : split) {
-                    int i1 = Integer.parseInt(s1, 16);
+                    int i1=0;
+                    try {
+                        i1 = Integer.parseInt(s1, 16);
+                    }catch (Exception e){
+                        continue;
+                    }
                     if (i1>=32&&i1<=126){
                         i++;
                     }
@@ -197,7 +207,13 @@ public class Main {
                     if (i>20){
                         break;
                     }
-                    int i1 = Integer.parseInt(s1, 16);
+                    int i1=0;
+                    try {
+                        i1 = Integer.parseInt(s1, 16);
+                    }catch (Exception e){
+                        i=0;
+                        continue;
+                    }
                     if (i1>=32&&i1<=126){
                         i++;
                     }else {
@@ -225,7 +241,12 @@ public class Main {
                 }
                 int i=0;
                 for (String s1 : split) {
-                    int i1 = Integer.parseInt(s1, 16);
+                    int i1=0;
+                    try {
+                        i1 = Integer.parseInt(s1, 16);
+                    }catch (Exception e){
+                        continue;
+                    }
                     String binaryString = Integer.toBinaryString(i1);
                     for (int j = 0; j < binaryString.length(); j++) {
                         if (binaryString.charAt(j)=='1'){
