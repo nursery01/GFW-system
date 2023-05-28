@@ -1,11 +1,9 @@
 import com.google.gson.Gson;
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -14,6 +12,7 @@ import java.util.concurrent.Executors;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("GFW2021 version 1.0");
         Main main = new Main();
         ArrayList rf = main.rf();
         ExecutorService executorService = Executors.newVirtualThreadPerTaskExecutor();
