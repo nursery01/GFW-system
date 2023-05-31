@@ -198,9 +198,10 @@ public class Main {
                     } else if (address instanceof java.net.Inet4Address&&k.contains(".")){
                         v_ip=address.getHostAddress();
                         break;
+                    }else {
+                        v_ip=address.getHostAddress();
                     }
                 }
-                if (v_ip==null)return;
             } catch (UnknownHostException e) {
                 System.out.println(e);
                 return;
