@@ -1,9 +1,10 @@
 gfw2021(ver1.0)，可以用來檢測Shadowsocks、vmess等(外層沒有加TLS)
 
-基於這篇製作[https://gfw.report/publications/usenixsecurity23/zh/](https://gfw.report/publications/usenixsecurity23/zh/)
+識別原理是基於這個[https://gfw.report/publications/usenixsecurity23/zh/](https://gfw.report/publications/usenixsecurity23/zh/)
 
-需要jdk21才能運作
+需要jdk21+才能運作
 
+使用方式
 ```
 1.你需要用wireshark獲取資料
 2.在wireshark設定過濾，tcp.port == SERVER PORT && (ip.dst == SERVER IP || ipv6.dst == SERVER IP)
