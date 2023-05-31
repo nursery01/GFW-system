@@ -194,10 +194,13 @@ public class Main {
                 for (InetAddress address : addresses) {
                     if (address instanceof java.net.Inet6Address&&k.contains(":")) {
                         v_ip=address.getHostAddress();
-                    } else {
+                        break;
+                    } else if (address instanceof java.net.Inet4Address&&k.contains(".")){
                         v_ip=address.getHostAddress();
+                        break;
                     }
                 }
+                if (v_ip==null)return;
             } catch (UnknownHostException e) {
                 System.out.println(e);
                 return;
