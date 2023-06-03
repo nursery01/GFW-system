@@ -14,4 +14,6 @@
 
 2.GFW-xray-REALITY,基於旁側的方式識別xray-REALITY[https://github.com/nursery01/GFW-system/tree/main/TLS/passive%20detection](https://github.com/nursery01/GFW-system/tree/main/TLS/passive%20detection)
 
+RPRX和yuhan提出時序特徵可以用來檢測TLS代理，首先我認可這個觀點，但是我要在這個基礎上補充一個猜想的是這種檢測方法誤報率可能會很高，因為api伺服器和cdn伺服器需要對上游進行請求，所以api伺服器和cdn伺服器可能會表現出類似TLS代理的時序特性
+
 GPL Ver3.0
