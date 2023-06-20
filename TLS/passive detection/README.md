@@ -19,6 +19,7 @@ Xray-REALITY 基於旁側的方式識別
 誤報的網域大多數都是cdn或者api
 
 更新2
+
 ~~結果我自己先引了~~ 啊，一不小心就。。。一不小心就。。。
 RPRX的要求[https://github.com/XTLS/Xray-core/issues/2230#issuecomment-1598256976](https://github.com/XTLS/Xray-core/issues/2230#issuecomment-1598256976)
 
