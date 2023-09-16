@@ -10,7 +10,7 @@
 
 誤報率肯定有，這是無法解決的問題
 
-0.零號更新，最終更新，講述了我當初爲什麽做這個[https://github.com/nursery01/GFW-system/tree/main/0.md](https://github.com/nursery01/GFW-system/tree/main/0.md)
+0.零號更新，最終更新，講述了我當初爲什麽做這個[https://github.com/nursery01/GFW-system/blob/bda6edde19f3083545d9be760c89d7b9b4b77a07/0.md](https://github.com/nursery01/GFW-system/blob/bda6edde19f3083545d9be760c89d7b9b4b77a07/0.md)
 
 目前做了
 
